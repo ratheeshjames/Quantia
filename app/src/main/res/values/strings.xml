@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Quantia</string>
+    <string name="app_subtitle">Material 3 Expressive Math Studio</string>
+    <string name="suite_scientific">Scientific</string>
+    <string name="suite_graph">Graphing</string>
+    <string name="suite_matrix">Algebra</string>
+    <string name="suite_converter">Convert</string>
+    <string name="suite_stats">Stats &amp; Fin</string>
+    <string name="action_history">History &amp; Memory Tape</string>
+    <string name="action_constants">50+ Physics Constants</string>
+    <string name="action_themes">Expressive Theme Studio</string>
+    <string name="action_formulas">Custom Formulas</string>
+    <string name="action_backspace">Backspace</string>
+    <string name="action_clear">Clear Expression</string>
+    <string name="action_evaluate">Evaluate Expression</string>
+    <string name="action_expand_functions">Expand Scientific Drawer</string>
+    <string name="empty_history_title">Your Calculation Tape is Clean</string>
+    <string name="empty_history_subtitle">Evaluate any expression, matrix, or formula to build your searchable history tape.</string>
+</resources>
