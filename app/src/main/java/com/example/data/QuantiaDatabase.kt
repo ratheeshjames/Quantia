@@ -28,7 +28,7 @@ abstract class QuantiaDatabase : RoomDatabase() {
                     QuantiaDatabase::class.java,
                     "quantia_calculator.db"
                 )
-                    .fallbackToDestructiveMigration()
+                    .fallbackToDestructiveMigration(true)
                     .build()
                 INSTANCE = instance
                 instance

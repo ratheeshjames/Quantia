@@ -20,7 +20,7 @@ import androidx.compose.material.icons.filled.GridOn
 import androidx.compose.material.icons.filled.History
 import androidx.compose.material.icons.filled.Palette
 import androidx.compose.material.icons.filled.Science
-import androidx.compose.material.icons.filled.ShowChart
+import androidx.compose.material.icons.automirrored.filled.ShowChart
 import androidx.compose.material.icons.filled.SwapHoriz
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
@@ -114,7 +114,7 @@ fun QuantiaApp() {
                     SuiteTab.entries.forEach { tab ->
                         val icon = when (tab) {
                             SuiteTab.SCIENTIFIC -> Icons.Default.Calculate
-                            SuiteTab.GRAPHING -> Icons.Default.ShowChart
+                            SuiteTab.GRAPHING -> Icons.AutoMirrored.Filled.ShowChart
                             SuiteTab.MATRIX_ALGEBRA -> Icons.Default.GridOn
                             SuiteTab.CONVERTER_BASEN -> Icons.Default.SwapHoriz
                             SuiteTab.STATS_FINANCE -> Icons.Default.BarChart
